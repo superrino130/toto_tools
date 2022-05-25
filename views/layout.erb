@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <title>TOTO odds search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body style="background-color:cornsilk">
+    <nav class="navbar fixed-top navbar-light" style="background-color:lightsalmon">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><%= @title %></a>
+      </div>
+    </nav>
+    <br><br><br>
+    <%= yield %>
+    <br><br><br>
+    <nav class="navbar fixed-bottom navbar-light" style="background-color:lightsalmon">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./">TOTO for all sports of japan.</a>
+      </div>
+    </nav>
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

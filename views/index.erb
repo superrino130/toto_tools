@@ -1,0 +1,9 @@
+<h2>開催回を選択してください</h2>
+<br>
+<ul class="list-group">
+  <% @sch.sort.each do |x| %>
+    <a href=<%= "/goal3/" + x.to_s %> class="list-group-item list-group-item-action"><%= x %></a>
+  <% end %>
+</ul>
+<p>
+<br>
